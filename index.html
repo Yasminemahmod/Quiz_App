@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="quiz-app">
+        <div class="que cont d-none">
+            <div class="quiz-info">
+                <div class="quiz-cat">Category : <span class="curr-cat"></span></div>
+                <div class="question-count">Question Count : <span class="count"></span></div>
+            </div>
+            <div class="question-area">
+                <div class="question"></div>
+                <div class="answers"></div>
+                <div class="btns">
+                    <button class="submit-btn btn">Submit Answer</button>
+                    <button class="next-btn btn">Next</button>
+                </div>
+            </div>
+            <div class="bullets">
+                <div class="spans"></div>
+                <div class="timer">
+
+                </div>
+            </div>
+            <div class="result"></div>
+        </div>
+        
+
+        <div class="cont">
+            <h2> Test your skills, And choose the quiz: </h2> 
+            <div class="cat">
+                <div class="html" data-cat="html">
+                    <span>HTML</span>
+                    <button class="start-btn btn">Start Quiz</button>
+                </div>
+                <div class="css" data-cat="css">
+                    <span>CSS</span>
+                    <button class="start-btn btn">Start Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

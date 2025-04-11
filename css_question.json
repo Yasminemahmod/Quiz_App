@@ -1,0 +1,98 @@
+[
+    {
+        "title": "What does CSS stand for",
+        "answer_1": "Colorful Style Sheet",
+        "answer_2": "Computer Style Sheet",
+        "answer_3": "Cascading Style Sheet",
+        "answer_4": "Creative Style Sheet",
+        "right_answer": "Cascading Style Sheet"
+    },
+    {
+        "title": "What is the correct HTML for referring to an external style sheet",
+        "answer_1": "<stylesheet>mystyle.css</stylesheet>",
+        "answer_2": "<style src=\"mystyle.css\">",
+        "answer_3": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+        "answer_4": "None Of Them",
+        "right_answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+    },
+    {
+        "title": "Which HTML tag is used to define an internal style sheet",
+        "answer_1": "<script>",
+        "answer_2": "<style>",
+        "answer_3": "<css>",
+        "answer_4": "<link>",
+        "right_answer": "<style>"
+    },
+    {
+        "title": "Which HTML attribute is used to define inline styles",
+        "answer_1": "style",
+        "answer_2": "styles",
+        "answer_3": "font",
+        "answer_4": "class",
+        "right_answer": "style"
+    },
+    {
+        "title": "Which is the correct CSS syntax?",
+        "answer_1": "{body; color:black;}",
+        "answer_2": "body {color:black;}",
+        "answer_3": "body; color:black;",
+        "answer_4": "{body; color=black;}",
+        "right_answer": "body {color:black;}"
+    },
+    {
+        "title": "How do you insert a comment in a CSS file?",
+        "answer_1": "\/\/ this is a comment",
+        "answer_2": "\/* this is a comment *\/",
+        "answer_3": "\/\/ this is a comment \/\/",
+        "answer_4": "' this is a comment",
+        "right_answer": "\/* this is a comment *\/"
+    },
+    {
+        "title": "Which property is used to change the background color?",
+        "answer_1": "background-color",
+        "answer_2": "color",
+        "answer_3": "bgcolor",
+        "answer_4": "answer 1 and 3",
+        "right_answer": "background-color"
+    },
+    {
+        "title": "How do you add a background color for all <h1> elements",
+        "answer_1": "h1.all {backgroung-color: #ffffff;}",
+        "answer_2": "h1 {backgroung-color: #ffffff;}",
+        "answer_3": "all.h1 {backgroung-color: #ffffff;}",
+        "answer_4": "All Of Them",
+        "right_answer": "h1 {backgroung-color: #ffffff;}"
+    },
+    {
+        "title": "Which CSS property controls the text size",
+        "answer_1": "text-size",
+        "answer_2": "font-style",
+        "answer_3": "font-size",
+        "answer_4": "text-style",
+        "right_answer": "font-size"
+    },
+    {
+        "title": "How do you display hyperlinks without an underline",
+        "answer_1": "a {decoration: no-underline;}",
+        "answer_2": "a {underline: none;}",
+        "answer_3": "a {text-decoration: no-underline;}",
+        "answer_4": "a {text-decoration: none;}",
+        "right_answer": "a {text-decoration: none;}"
+    },
+    {
+        "title": "How do you make each word in a text start with a capital letter",
+        "answer_1": "You can't do that with CSS",
+        "answer_2": "transform: capitalize",
+        "answer_3": "text-style: capitalize",
+        "answer_4": "text-transform: capitalize",
+        "right_answer": "text-transform: capitalize"
+    },
+    {
+        "title": "How do you select an element with id 'demo'",
+        "answer_1": "#demo",
+        "answer_2": "*demo",
+        "answer_3": ".demo",
+        "answer_4": "demo",
+        "right_answer": "#demo"
+    }
+]
